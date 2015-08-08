@@ -1,0 +1,160 @@
+/**
+ * Stylistic Issues
+ */
+module.exports = {
+  // enforce spacing inside array brackets
+  'array-bracket-spacing': 2,
+
+  // enforce one true brace style
+  'brace-style': 2,
+
+  // require camel case names
+  'camelcase': 2,
+
+  // enforce spacing before and after comma
+  'comma-spacing': 2,
+
+  // enforce one true comma style
+  'comma-style': 2,
+
+  // require or disallow padding inside computed properties
+  'computed-property-spacing': 2,
+
+  // enforce consistent naming when capturing the current execution context
+  'consistent-this': 2,
+
+  // enforce newline at the end of file, with no multiple empty lines
+  'eol-last': 2,
+
+  // require function expressions to have a name
+  'func-names': 2,
+
+  // enforce use of function declarations or expressions
+  'func-style': 2,
+
+  // this option enforces minimum and maximum identifier lengths (variable names, property names etc.) (off by default)
+  'id-length': 2,
+
+  // require identifiers to match the provided regular expression
+  'id-match': 2,
+
+  // specify tab or space width for your code
+  'indent': 2,
+
+  // enforce spacing between keys and values in object literal properties
+  'key-spacing': 2,
+
+  // enforce empty lines around comments
+  'lines-around-comment': 2,
+
+  // disallow mixed 'LF' and 'CRLF' as linebreaks
+  'linebreak-style': 2,
+
+  // specify the maximum depth callbacks can be nested
+  'max-nested-callbacks': 2,
+
+  // require a capital letter for constructors
+  'new-cap': 2,
+
+  // disallow the omission of parentheses when invoking a constructor with no arguments
+  'new-parens': 2,
+
+  // require or disallow an empty newline after variable declarations
+  'newline-after-var': 2,
+
+  // disallow use of the Array constructor
+  'no-array-constructor': 2,
+
+  // disallow use of the continue statement
+  'no-continue': 2,
+
+  // disallow comments inline after code
+  'no-inline-comments': 2,
+
+  // disallow if as the only statement in an else block
+  'no-lonely-if': 2,
+
+  // disallow mixed spaces and tabs for indentation (recommended)
+  'no-mixed-spaces-and-tabs': 2,
+
+  // disallow multiple empty lines
+  'no-multiple-empty-lines': 2,
+
+  // disallow nested ternary expressions
+  'no-nested-ternary': 2,
+
+  // disallow the use of the Object constructor
+  'no-new-object': 2,
+
+  // disallow space between function identifier and application
+  'no-spaced-func': 2,
+
+  // disallow the use of ternary operators
+  'no-ternary': 2,
+
+  // disallow trailing whitespace at the end of lines
+  'no-trailing-spaces': 2,
+
+  // disallow dangling underscores in identifiers
+  'no-underscore-dangle': 2,
+
+  // disallow the use of Boolean literals in conditional expressions
+  'no-unneeded-ternary': 2,
+
+  // require or disallow padding inside curly braces
+  'object-curly-spacing': 2,
+
+  // require or disallow one variable declaration per function
+  'one-var': 2,
+
+  // require assignment operator shorthand where possible or prohibit it entirely
+  'operator-assignment': 2,
+
+  // enforce operators to be placed before or after line breaks
+  'operator-linebreak': 2,
+
+  // enforce padding within blocks
+  'padded-blocks': 2,
+
+  // require quotes around object literal property names
+  'quote-props': 2,
+
+  // specify whether backticks, double or single quotes should be used
+  'quotes': 2,
+
+  // enforce spacing before and after semicolons
+  'semi-spacing': 2,
+
+  // require or disallow use of semicolons instead of ASI
+  'semi': 2,
+
+  // sort variables within the same declaration block
+  'sort-vars': 2,
+
+  // require a space after certain keywords
+  'space-after-keywords': 2,
+
+  // require or disallow a space before blocks
+  'space-before-blocks': 2,
+
+  // require or disallow a space before function opening parenthesis
+  'space-before-function-paren': 2,
+
+  // require or disallow spaces inside parentheses
+  'space-in-parens': 2,
+
+  // require spaces around operators
+  'space-infix-ops': 2,
+
+  // require a space after return, throw, and case
+  'space-return-throw-case': 2,
+
+  // require or disallow spaces before/after unary operators
+  'space-unary-ops': 2,
+
+  // require or disallow a space immediately following the // or /* in a comment
+  'spaced-comment': 2,
+
+  // require regex literals to be wrapped in parentheses
+  'wrap-regex': 2
+};
