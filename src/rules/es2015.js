@@ -3,7 +3,8 @@
  */
 module.exports = {
   // require parens in arrow function arguments
-  'arrow-parens': [2, 'always'],
+  // disabled due async/await support
+  'arrow-parens': [0, 'always'],
 
   // require space before/after arrow function's arrow
   'arrow-spacing': [2, {
@@ -15,7 +16,8 @@ module.exports = {
   'constructor-super': 2,
 
   // enforce spacing around the * in generator functions
-  'generator-star-spacing': [2, 'before'],
+  // disabled due async/await support
+  'generator-star-spacing': [0, 'before'],
 
   // disallow modifying variables of class declarations
   'no-class-assign': 2,
