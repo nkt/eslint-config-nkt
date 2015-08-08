@@ -6,16 +6,24 @@ module.exports = {
   'array-bracket-spacing': 2,
 
   // enforce one true brace style
-  'brace-style': 2,
+  'brace-style': [2,
+    '1tbs', {
+    'allowSingleLine': true
+  }],
 
   // require camel case names
-  'camelcase': 2,
+  'camelcase': [2, {
+    'properties': 'never'
+  }],
 
   // enforce spacing before and after comma
-  'comma-spacing': 2,
+  'comma-spacing': [2, {
+    'before': false,
+    'after': true
+  }],
 
   // enforce one true comma style
-  'comma-style': 2,
+  'comma-style': [2, 'last'],
 
   // require or disallow padding inside computed properties
   'computed-property-spacing': 2,
@@ -27,7 +35,7 @@ module.exports = {
   'eol-last': 2,
 
   // require function expressions to have a name
-  'func-names': 2,
+  'func-names': 1,
 
   // enforce use of function declarations or expressions
   'func-style': 2,
@@ -39,10 +47,13 @@ module.exports = {
   'id-match': 2,
 
   // specify tab or space width for your code
-  'indent': 2,
+  'indent': [2, 2],
 
   // enforce spacing between keys and values in object literal properties
-  'key-spacing': 2,
+  'key-spacing': [2, {
+    'beforeColon': false,
+    'afterColon': true
+  }],
 
   // enforce empty lines around comments
   'lines-around-comment': 2,
@@ -54,7 +65,9 @@ module.exports = {
   'max-nested-callbacks': 2,
 
   // require a capital letter for constructors
-  'new-cap': 2,
+  'new-cap': [2, {
+    'newIsCap': true
+  }],
 
   // disallow the omission of parentheses when invoking a constructor with no arguments
   'new-parens': 2,
@@ -74,11 +87,13 @@ module.exports = {
   // disallow if as the only statement in an else block
   'no-lonely-if': 2,
 
-  // disallow mixed spaces and tabs for indentation (recommended)
+  // disallow mixed spaces and tabs for indentation
   'no-mixed-spaces-and-tabs': 2,
 
   // disallow multiple empty lines
-  'no-multiple-empty-lines': 2,
+  'no-multiple-empty-lines': [2, {
+    'max': 2
+  }],
 
   // disallow nested ternary expressions
   'no-nested-ternary': 2,
@@ -96,7 +111,7 @@ module.exports = {
   'no-trailing-spaces': 2,
 
   // disallow dangling underscores in identifiers
-  'no-underscore-dangle': 2,
+  'no-underscore-dangle': 0,
 
   // disallow the use of Boolean literals in conditional expressions
   'no-unneeded-ternary': 2,
@@ -105,7 +120,10 @@ module.exports = {
   'object-curly-spacing': 2,
 
   // require or disallow one variable declaration per function
-  'one-var': 2,
+  'one-var': [2, {
+    'uninitialized': 'always',
+    'initialized': 'never'
+  }],
 
   // require assignment operator shorthand where possible or prohibit it entirely
   'operator-assignment': 2,
@@ -114,19 +132,22 @@ module.exports = {
   'operator-linebreak': 2,
 
   // enforce padding within blocks
-  'padded-blocks': 2,
+  'padded-blocks': [2, 'never'],
 
   // require quotes around object literal property names
   'quote-props': 2,
 
   // specify whether backticks, double or single quotes should be used
-  'quotes': 2,
+  'quotes': [2, 'single', 'avoid-escape'],
 
   // enforce spacing before and after semicolons
-  'semi-spacing': 2,
+  'semi-spacing': [2, {
+    'before': false,
+    'after': true
+  }],
 
   // require or disallow use of semicolons instead of ASI
-  'semi': 2,
+  'semi': [2, 'always'],
 
   // sort variables within the same declaration block
   'sort-vars': 2,
@@ -138,7 +159,7 @@ module.exports = {
   'space-before-blocks': 2,
 
   // require or disallow a space before function opening parenthesis
-  'space-before-function-paren': 2,
+  'space-before-function-paren': [2, 'never'],
 
   // require or disallow spaces inside parentheses
   'space-in-parens': 2,
@@ -153,7 +174,10 @@ module.exports = {
   'space-unary-ops': 2,
 
   // require or disallow a space immediately following the // or /* in a comment
-  'spaced-comment': 2,
+  'spaced-comment': [2, 'always', {
+    'exceptions': ['-', '+'],
+    'markers': ['=', '!'] // space here to support sprockets directives
+  }],
 
   // require regex literals to be wrapped in parentheses
   'wrap-regex': 2

@@ -15,10 +15,12 @@ module.exports = {
   'consistent-return': 2,
 
   // specify curly brace conventions for all control statements
-  'curly': 2,
+  'curly': [2, 'multi-line'],
 
   // require default case in switch statements
-  'default-case': 2,
+  'default-case': [2, {
+    'allowKeywords': true
+  }],
 
   // encourages use of dot notation whenever possible
   'dot-notation': 2,
@@ -59,7 +61,7 @@ module.exports = {
   // disallow unnecessary function binding
   'no-extra-bind': 2,
 
-  // disallow fallthrough of case statements (recommended)
+  // disallow fallthrough of case statements
   'no-fallthrough': 2,
 
   // disallow the use of leading or trailing decimal points in numeric literals
@@ -107,7 +109,7 @@ module.exports = {
   // disallow use of octal escape sequences in string literals, such as var foo = 'Copyright \251';
   'no-octal-escape': 2,
 
-  // disallow use of octal literals (recommended)
+  // disallow use of octal literals
   'no-octal': 2,
 
   // disallow reassignment of function parameters
@@ -119,7 +121,7 @@ module.exports = {
   // disallow usage of __proto__ property
   'no-proto': 2,
 
-  // disallow declaring the same variable more than once (recommended)
+  // disallow declaring the same variable more than once
   'no-redeclare': 2,
 
   // disallow use of assignment in return statement
@@ -159,7 +161,7 @@ module.exports = {
   'vars-on-top': 2,
 
   // require immediate function invocation to be wrapped in parentheses
-  'wrap-iife': 2,
+  'wrap-iife': [2, 'any'],
 
   // require or disallow Yoda conditions
   'yoda': 2

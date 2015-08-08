@@ -3,7 +3,12 @@
  */
 module.exports = {
   // enforce return after a callback
-  'callback-return': 2,
+  'callback-return': [2, [
+    'callback',
+    'cb',
+    'next',
+    'done'
+  ]],
 
   // enforce error handling in callbacks
   'handle-callback-err': 2,
@@ -21,8 +26,8 @@ module.exports = {
   'no-process-exit': 2,
 
   // restrict usage of specified node modules
-  'no-restricted-modules': 2,
+  'no-restricted-modules': 0,
 
   // disallow use of synchronous methods
-  'no-sync': 2
+  'no-sync': 1
 };

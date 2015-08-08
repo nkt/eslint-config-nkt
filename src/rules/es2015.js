@@ -3,16 +3,19 @@
  */
 module.exports = {
   // require parens in arrow function arguments
-  'arrow-parens': 2,
+  'arrow-parens': [2, 'always'],
 
   // require space before/after arrow function's arrow
-  'arrow-spacing': 2,
+  'arrow-spacing': [2, {
+    'before': true,
+    'after': true
+  }],
 
   // verify calls of super() in constructors
   'constructor-super': 2,
 
   // enforce spacing around the * in generator functions
-  'generator-star-spacing': 2,
+  'generator-star-spacing': [2, 'before'],
 
   // disallow modifying variables of class declarations
   'no-class-assign': 2,
@@ -36,7 +39,7 @@ module.exports = {
   'prefer-spread': 2,
 
   // suggest using Reflect methods where applicable
-  'prefer-reflect': 2,
+  'prefer-reflect': 0,
 
   // disallow generator functions that do not have yield
   'require-yield': 2
