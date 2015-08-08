@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-nkt",
+  "version": "0.0.0",
+  "description": "Modern ESLint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nkt/eslint-config-nkt"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "airbnb",
+    "styleguide"
+  ],
+  "author": "Nikita Gusakov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkt/eslint-config-nkt/issues"
+  },
+  "homepage": "https://github.com/nkt/eslint-config-nkt#readme"
+}
