@@ -105,7 +105,7 @@ module.exports = {
   'no-spaced-func': 2,
 
   // disallow the use of ternary operators
-  'no-ternary': 2,
+  'no-ternary': 0,
 
   // disallow trailing whitespace at the end of lines
   'no-trailing-spaces': 2,
