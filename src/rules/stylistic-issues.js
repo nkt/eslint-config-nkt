@@ -38,10 +38,7 @@ module.exports = {
   'func-names': 1,
 
   // enforce use of function declarations or expressions
-  'func-style': 2,
-
-  // this option enforces minimum and maximum identifier lengths (variable names, property names etc.) (off by default)
-  'id-length': 2,
+  'func-style': 0,
 
   // require identifiers to match the provided regular expression
   'id-match': 2,
