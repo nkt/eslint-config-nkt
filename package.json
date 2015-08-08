@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nkt",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Modern ESLint config",
   "main": "src/index.js",
   "repository": {
