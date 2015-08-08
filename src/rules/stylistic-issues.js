@@ -73,7 +73,7 @@ module.exports = {
   'new-parens': 2,
 
   // require or disallow an empty newline after variable declarations
-  'newline-after-var': 2,
+  'newline-after-var': 0,
 
   // disallow use of the Array constructor
   'no-array-constructor': 2,
