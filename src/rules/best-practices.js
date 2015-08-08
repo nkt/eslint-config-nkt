@@ -26,7 +26,7 @@ module.exports = {
   }],
 
   // enforces consistent newlines before or after dots
-  'dot-location': 2,
+  'dot-location': [2, 'property'],
 
   // require the use of === and !==
   'eqeqeq': 2,
@@ -116,7 +116,7 @@ module.exports = {
   'no-param-reassign': 2,
 
   // disallow use of process.env
-  'no-process-env': 2,
+  'no-process-env': 1,
 
   // disallow usage of __proto__ property
   'no-proto': 2,
