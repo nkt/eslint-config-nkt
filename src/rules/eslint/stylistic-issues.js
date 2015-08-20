@@ -47,7 +47,7 @@ module.exports = {
   'id-match': 2,
 
   // specify tab or space width for your code
-  'indent': [2, 2],
+  'indent': [2, 2, {'SwitchCase': 1}],
 
   // enforce spacing between keys and values in object literal properties
   'key-spacing': [2, {
