@@ -12,7 +12,7 @@ module.exports = {
   'react/jsx-max-props-per-line': [2, {'maximum': 5}],
 
   // Validate props indentation in JSX
-  'react/jsx-indent-props': [2, 2],
+  // 'react/jsx-indent-props': [2, 2],
 
   // Prevent duplicate props in JSX
   'react/jsx-no-duplicate-props': 2,
