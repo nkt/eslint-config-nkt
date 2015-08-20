@@ -2,17 +2,18 @@
   "name": "eslint-config-nkt",
   "version": "0.4.0",
   "description": "Modern ESLint config",
-  "main": "src/index.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/nkt/eslint-config-nkt"
   },
   "keywords": [
     "eslint",
-    "eslintconfig",
     "config",
-    "airbnb",
-    "styleguide"
+    "styleguide",
+    "cs",
+    "code",
+    "style"
   ],
   "author": "Nikita Gusakov",
   "license": "MIT",
@@ -22,5 +23,11 @@
   "homepage": "https://github.com/nkt/eslint-config-nkt#readme",
   "peerDependencies": {
     "eslint": "1.2.x"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-react": "3.2.x"
+  },
+  "scripts": {
+    "build": "babel -d lib/ src/"
   }
 }

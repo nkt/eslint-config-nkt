@@ -1,3 +1,5 @@
+var eslint = require('./rules/eslint');
+
 module.exports = {
-  rules: require('./rules')
+  rules: eslint
 };
