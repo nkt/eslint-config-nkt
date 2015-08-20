@@ -5,6 +5,9 @@ module.exports = {
   // enforce spacing inside array brackets
   'array-bracket-spacing': 2,
 
+  // disallow or enforce spaces inside of single line blocks
+  'block-spacing': [2, 'always'],
+
   // enforce one true brace style
   'brace-style': [2,
     '1tbs', {
