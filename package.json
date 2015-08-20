@@ -26,8 +26,5 @@
   },
   "optionalDependencies": {
     "eslint-plugin-react": "3.2.x"
-  },
-  "scripts": {
-    "build": "babel -d lib/ src/"
   }
 }
