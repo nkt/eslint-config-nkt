@@ -5,14 +5,21 @@ module.exports = {
   // Enforce boolean attributes notation in JSX
   'react/jsx-boolean-value': 2,
 
+  // Validate closing bracket location in JSX
+  'react/jsx-closing-bracket-location': [2, {
+    'location': 'tag-aligned'
+  }],
+
   // Enforce or disallow spaces inside of curly braces in JSX attributes
   'react/jsx-curly-spacing': [2, 'never'],
 
   // Limit maximum of props on a single line in JSX
-  'react/jsx-max-props-per-line': [2, {'maximum': 5}],
+  'react/jsx-max-props-per-line': [2, {
+    'maximum': 5
+  }],
 
   // Validate props indentation in JSX
-  // 'react/jsx-indent-props': [2, 2],
+  'react/jsx-indent-props': [2, 2],
 
   // Prevent duplicate props in JSX
   'react/jsx-no-duplicate-props': 2,
@@ -41,6 +48,9 @@ module.exports = {
   // Prevent usage of dangerous JSX properties
   'react/no-danger': 0,
 
+  // Prevent usage of setState
+  'react/no-set-state': 0,
+
   // Prevent usage of setState in componentDidMount
   'react/no-did-mount-set-state': [2, 'allow-in-func'],
 
@@ -60,7 +70,9 @@ module.exports = {
   'react/react-in-jsx-scope': 2,
 
   // Restrict file extensions that may be required
-  'react/require-extension': [2, {'extensions': ['.js']}],
+  'react/require-extension': [2, {
+    'extensions': ['.js']
+  }],
 
   // Prevent extra closing tags for components without children
   'react/self-closing-comp': 2,
