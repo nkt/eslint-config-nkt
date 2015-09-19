@@ -48,6 +48,8 @@ module.exports = {
 
   // specify tab or space width for your code
   'indent': [2, 2, {'SwitchCase': 1}],
+  // specify whether double or single quotes should be used in JSX attributes
+  'jsx-quotes': [2, 'prefer-double'],
 
   // enforce spacing between keys and values in object literal properties
   'key-spacing': [2, {
@@ -102,6 +104,9 @@ module.exports = {
   // disallow the use of the Object constructor
   'no-new-object': 2,
 
+  // disallow use of certain syntax in code
+  'no-restricted-syntax': [2, 'WithStatement'],
+
   // disallow space between function identifier and application
   'no-spaced-func': 2,
 
@@ -141,6 +146,9 @@ module.exports = {
   // specify whether backticks, double or single quotes should be used
   'quotes': [2, 'single', 'avoid-escape'],
 
+  // Require JSDoc comment
+  'require-jsdoc': 2,
+
   // enforce spacing before and after semicolons
   'semi-spacing': [2, {
     'before': false,
@@ -155,6 +163,9 @@ module.exports = {
 
   // require a space after certain keywords
   'space-after-keywords': 2,
+
+  // require a space before certain keywords
+  'space-before-keywords': 2,
 
   // require or disallow a space before blocks
   'space-before-blocks': 2,

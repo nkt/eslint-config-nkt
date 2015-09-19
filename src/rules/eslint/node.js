@@ -10,6 +10,8 @@ module.exports = {
     'done'
   ]],
 
+  'global-require': 1,
+
   // enforce error handling in callbacks
   'handle-callback-err': 2,
 
