@@ -101,6 +101,9 @@ module.exports = {
   // disallow nested ternary expressions
   'no-nested-ternary': 2,
 
+  // disallow negated conditions
+  'no-negated-condition': 2,
+
   // disallow the use of the Object constructor
   'no-new-object': 2,
 
