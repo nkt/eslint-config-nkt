@@ -49,6 +49,9 @@ module.exports = {
   // disallow use of labels for anything other than loops and switches
   'no-empty-label': 2,
 
+  // disallow use of empty destructuring patterns
+  'no-empty-pattern': 2,
+
   // disallow comparisons to null without a type-checking operator
   'no-eq-null': 2,
 
@@ -87,6 +90,9 @@ module.exports = {
 
   // disallow creation of functions within loops
   'no-loop-func': 2,
+
+  // disallow the use of magic numbers
+  'no-magic-numbers': [2, {enforceConst: true}],
 
   // disallow use of multiple spaces
   'no-multi-spaces': 2,
