@@ -66,6 +66,9 @@ module.exports = {
   // Prevent usage of unknown DOM property
   'react/no-unknown-property': 2,
 
+  // Prefer es6 class instead of createClass for React Components
+  'prefer-es6-class': 0,
+
   // Prevent missing props validation in a React component definition
   'react/prop-types': 2,
 

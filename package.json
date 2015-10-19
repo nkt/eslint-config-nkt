@@ -25,6 +25,6 @@
     "eslint": "1.7.x"
   },
   "optionalDependencies": {
-    "eslint-plugin-react": "3.5.x"
+    "eslint-plugin-react": "3.6.x"
   }
 }
