@@ -2,8 +2,10 @@
  * ES2015
  */
 module.exports = {
+  // require braces in arrow function body
+  'arrow-body-style': [2, 'as-needed'],
+
   // require parens in arrow function arguments
-  // disabled due async/await support
   'arrow-parens': [0, 'always'],
 
   // require space before/after arrow function's arrow
@@ -16,8 +18,10 @@ module.exports = {
   'constructor-super': 2,
 
   // enforce spacing around the * in generator functions
-  // disabled due async/await support
   'generator-star-spacing': [0, 'before'],
+
+  // disallow arrow functions where a condition is expected
+  'no-arrow-condition': 2,
 
   // disallow modifying variables of class declarations
   'no-class-assign': 2,
