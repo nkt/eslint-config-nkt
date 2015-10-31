@@ -92,7 +92,7 @@ module.exports = {
   'no-loop-func': 2,
 
   // disallow the use of magic numbers
-  'no-magic-numbers': [2, {enforceConst: true}],
+  'no-magic-numbers': 0,
 
   // disallow use of multiple spaces
   'no-multi-spaces': 2,
