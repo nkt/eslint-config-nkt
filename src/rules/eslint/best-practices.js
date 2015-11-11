@@ -40,6 +40,9 @@ module.exports = {
   // disallow use of arguments.caller or arguments.callee
   'no-caller': 2,
 
+  // disallow lexical declarations in case clauses
+  'no-case-declarations': 2,
+
   // disallow division operators explicitly at beginning of regular expression
   'no-div-regex': 2,
 
