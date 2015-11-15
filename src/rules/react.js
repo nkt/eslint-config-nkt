@@ -9,6 +9,9 @@ module.exports = {
   'react/jsx-boolean-value': 2,
 
   // Validate closing bracket location in JSX
+  'react/jsx-closing-bracket-location': 2,
+
+  // Validate closing bracket location in JSX
   'react/jsx-closing-bracket-location': [2, {
     'location': 'tag-aligned'
   }],
@@ -23,6 +26,9 @@ module.exports = {
 
   // Validate props indentation in JSX
   'react/jsx-indent-props': [2, 2],
+
+  // Prevent usage of .bind() and arrow functions in JSX props
+  'react/jsx-no-bind': 2,
 
   // Prevent duplicate props in JSX
   'react/jsx-no-duplicate-props': 2,
@@ -61,7 +67,9 @@ module.exports = {
   'react/no-direct-mutation-state': 2,
 
   // Prevent multiple component definition per file
-  'react/no-multi-comp': 2,
+  'react/no-multi-comp': [2, {
+    'ignoreStateless': true
+  }],
 
   // Prevent usage of unknown DOM property
   'react/no-unknown-property': 2,
