@@ -40,7 +40,7 @@ module.exports = {
   'react/jsx-no-undef': 2,
 
   // Enforce PascalCase for user-defined JSX components
-  'jsx-pascal-case': 2,
+  'react/jsx-pascal-case': 2,
 
   // Enforce propTypes declarations alphabetical sorting
   'react/jsx-sort-prop-types': 0,
@@ -78,7 +78,7 @@ module.exports = {
   'react/no-unknown-property': 2,
 
   // Prefer es6 class instead of createClass for React Components
-  'prefer-es6-class': 0,
+  'react/prefer-es6-class': 0,
 
   // Prevent missing props validation in a React component definition
   'react/prop-types': 2,
