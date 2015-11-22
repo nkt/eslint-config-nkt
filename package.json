@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/nkt/eslint-config-nkt#readme",
   "peerDependencies": {
-    "eslint": "1.9.x"
+    "eslint": "1.10.x"
   },
   "optionalDependencies": {
-    "eslint-plugin-react": "3.8.x"
+    "eslint-plugin-react": "3.10.x"
   }
 }

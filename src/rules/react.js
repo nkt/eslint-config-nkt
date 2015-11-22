@@ -39,6 +39,9 @@ module.exports = {
   // Disallow undeclared variables in JSX
   'react/jsx-no-undef': 2,
 
+  // Enforce PascalCase for user-defined JSX components
+  'jsx-pascal-case': 2,
+
   // Enforce propTypes declarations alphabetical sorting
   'react/jsx-sort-prop-types': 0,
 
