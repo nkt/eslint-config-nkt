@@ -19,6 +19,12 @@ module.exports = {
   // Enforce or disallow spaces inside of curly braces in JSX attributes
   'react/jsx-curly-spacing': [2, 'never'],
 
+  // Enforce event handler naming conventions in JSX
+  'react/jsx-handler-names': [2, {
+    'eventHandlerPrefix': 'on',
+    'eventHandlerPropPrefix': 'on'
+  }],
+
   // Limit maximum of props on a single line in JSX
   'react/jsx-max-props-per-line': [2, {
     'maximum': 5
@@ -26,6 +32,9 @@ module.exports = {
 
   // Validate props indentation in JSX
   'react/jsx-indent-props': [2, 2],
+
+  // Validate JSX indentation
+  'react/jsx-indent': [2, 2],
 
   // Prevent usage of .bind() and arrow functions in JSX props
   'react/jsx-no-bind': 2,
@@ -57,6 +66,11 @@ module.exports = {
   // Prevent usage of dangerous JSX properties
   'react/no-danger': 0,
 
+  // Prevent usage of deprecated methods
+  'react/no-deprecated': [2, {
+    'react': '0.14.0'
+  }],
+
   // Prevent usage of setState
   'react/no-set-state': 0,
 
@@ -69,16 +83,25 @@ module.exports = {
   // Prevent direct mutation of this.state
   'react/no-direct-mutation-state': 2,
 
+  // Prevent usage of isMounted
+  'react/no-is-mounted': 2,
+
   // Prevent multiple component definition per file
   'react/no-multi-comp': [2, {
     'ignoreStateless': true
   }],
 
+  // Prevent usage of setState
+  'react/no-set-state': 0,
+
+  // Prevent using string references in ref attribute
+  'react/no-string-refs': 0,
+
   // Prevent usage of unknown DOM property
   'react/no-unknown-property': 2,
 
   // Prefer es6 class instead of createClass for React Components
-  'react/prefer-es6-class': 0,
+  'react/prefer-es6-class': [2, 'never'],
 
   // Prevent missing props validation in a React component definition
   'react/prop-types': 2,
