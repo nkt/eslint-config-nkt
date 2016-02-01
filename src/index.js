@@ -1,5 +1,6 @@
-var eslint = require('./rules/eslint');
-
 module.exports = {
-  rules: eslint
+  rules: Object.assign(
+    Object.create(null),
+    require('./rules/eslint')
+  )
 };

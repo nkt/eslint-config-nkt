@@ -1,12 +1,11 @@
 {
   "name": "eslint-config-nkt",
   "version": "0.15.0",
-  "description": "Modern ESLint config",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nkt/eslint-config-nkt"
-  },
+  "author": "Nikita Gusakov",
+  "license": "MIT",
+  "description": "Modern ESLint config",
+  "homepage": "https://github.com/nkt/eslint-config-nkt#readme",
   "keywords": [
     "eslint",
     "config",
@@ -15,12 +14,16 @@
     "code",
     "style"
   ],
-  "author": "Nikita Gusakov",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nkt/eslint-config-nkt"
+  },
   "bugs": {
     "url": "https://github.com/nkt/eslint-config-nkt/issues"
   },
-  "homepage": "https://github.com/nkt/eslint-config-nkt#readme",
+  "engines": {
+    "node": ">=4.2.0"
+  },
   "peerDependencies": {
     "eslint": "1.10.x"
   },

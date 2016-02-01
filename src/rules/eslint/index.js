@@ -1,11 +1,10 @@
-var assign = require('../../utils/assign');
-
-module.exports = assign.apply(null, [
-  require('./possible-errors'),
+module.exports = Object.assign(
+  Object.create(null),
   require('./best-practices'),
-  require('./strict-mode'),
-  require('./variables'),
+  require('./es2015'),
   require('./node'),
+  require('./possible-errors'),
+  require('./strict-mode'),
   require('./stylistic-issues'),
-  require('./es2015')
-]);
+  require('./variables')
+);
