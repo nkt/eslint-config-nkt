@@ -19,6 +19,9 @@ module.exports = {
   // Enforce or disallow spaces inside of curly braces in JSX attributes
   'react/jsx-curly-spacing': [2, 'never'],
 
+  // Enforce or disallow spaces around equal signs in JSX attributes
+  'react/jsx-equals-spacing': [2, 'never'],
+
   // Enforce event handler naming conventions in JSX
   'react/jsx-handler-names': [2, {
     'eventHandlerPrefix': 'on',
