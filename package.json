@@ -28,6 +28,9 @@
     "test": "eslint src/",
     "postpublish": "git push --follow-tags"
   },
+  "dependencies": {
+    "babel-eslint": "6.1.0"
+  },
   "devDependencies": {
     "eslint": "2.13.x",
     "eslint-plugin-react": "5.2.x"
