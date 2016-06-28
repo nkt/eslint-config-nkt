@@ -24,9 +24,7 @@ module.exports = {
   'default-case': 2,
 
   // encourages use of dot notation whenever possible
-  'dot-notation': [2, {
-    'allowKeywords': true
-  }],
+  'dot-notation': [2, { 'allowKeywords': true }],
 
   // enforces consistent newlines before or after dots
   'dot-location': [2, 'property'],
@@ -174,6 +172,9 @@ module.exports = {
 
   // disallow unnecessary concatenation of literals or template literals
   'no-useless-concat': 2,
+
+  // disallow unnecessary escape characters
+  'no-useless-escape': 2,
 
   // disallow use of the void operator
   'no-void': 2,

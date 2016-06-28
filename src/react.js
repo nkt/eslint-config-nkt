@@ -10,9 +10,7 @@ module.exports = {
   parserOptions: {
     sourceType: 'module',
     ecmaVersion: 6,
-    ecmaFeatures: {
-      jsx: true
-    }
+    ecmaFeatures: { jsx: true }
   },
   rules: Object.assign({}, eslint, react)
 };

@@ -65,6 +65,9 @@ module.exports = {
   // disallow the use of object properties of the global object (Math and JSON) as functions
   'no-obj-calls': 2,
 
+  // Disallow use of Object.prototypes builtins directly
+  'no-prototype-builtins': 2,
+
   // disallow multiple spaces in a regular expression literal
   'no-regex-spaces': 2,
 
@@ -73,6 +76,9 @@ module.exports = {
 
   // disallow unreachable statements after a return, throw, continue, or break statement
   'no-unreachable': 2,
+
+  // disallow control flow statements in finally blocks
+  'no-unsafe-finally': 2,
 
   // disallow comparisons with the value NaN
   'use-isnan': 2,

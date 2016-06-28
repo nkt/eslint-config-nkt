@@ -10,14 +10,10 @@ module.exports = {
 
   // enforce one true brace style
   'brace-style': [2,
-    '1tbs', {
-      'allowSingleLine': true
-    }],
+    '1tbs', { 'allowSingleLine': true }],
 
   // require camel case names
-  'camelcase': [2, {
-    'properties': 'never'
-  }],
+  'camelcase': [2, { 'properties': 'never' }],
 
   // enforce spacing before and after comma
   'comma-spacing': [2, {
@@ -69,8 +65,33 @@ module.exports = {
   // disallow mixed 'LF' and 'CRLF' as linebreaks
   'linebreak-style': 2,
 
-  // specify the maximum depth callbacks can be nested
-  'max-nested-callbacks': 2,
+  // enforce a maximum depth that blocks can be nested
+  'max-depth': [2, { 'max': 4 }],
+
+  // enforce a maximum line length
+  'max-len': [2, {
+    'code': 100,
+    'tabWidth': 2
+  }],
+
+  // enforce a maximum file length
+  'max-lines': [2, {
+    'max': 300,
+    'skipBlankLines': true,
+    'skipComments': true
+  }],
+
+  // enforce a maximum depth that callbacks can be nested
+  'max-nested-callbacks': [2, { 'max': 4 }],
+
+  // enforce a maximum number of parameters in function definitions
+  'max-params': [2, { 'max': 6 }],
+
+  // enforce a maximum number of statements allowed in function blocks
+  'max-statements': [2, { 'max': 80 }],
+
+  // enforce a maximum number of statements allowed per line
+  'max-statements-per-line': [2, { 'max': 1 }],
 
   // require a capital letter for constructors
   'new-cap': [2, {
@@ -99,13 +120,14 @@ module.exports = {
   // disallow if as the only statement in an else block
   'no-lonely-if': 2,
 
+  // disallow mixes of different operators
+  'no-mixed-operators': 2,
+
   // disallow mixed spaces and tabs for indentation
   'no-mixed-spaces-and-tabs': 2,
 
   // disallow multiple empty lines
-  'no-multiple-empty-lines': [2, {
-    'max': 2
-  }],
+  'no-multiple-empty-lines': [2, { 'max': 2 }],
 
   // disallow nested ternary expressions
   'no-nested-ternary': 2,
@@ -137,8 +159,13 @@ module.exports = {
   // disallow whitespace before properties
   'no-whitespace-before-property': 2,
 
+  'object-curly-newline': [2, { 'multiline': true }],
+
   // require or disallow padding inside curly braces
   'object-curly-spacing': [2, 'always'],
+
+  // enforce placing object properties on separate lines
+  'object-property-newline': 0,
 
   // require or disallow one variable declaration per function
   'one-var': [2, {
@@ -199,6 +226,8 @@ module.exports = {
     'exceptions': ['-', '+'],
     'markers': ['=', '!']
   }],
+
+  'unicode-bom': [2, 'never'],
 
   // require regex literals to be wrapped in parentheses
   'wrap-regex': 2

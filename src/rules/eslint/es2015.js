@@ -35,14 +35,23 @@ module.exports = {
   // disallow new operators with the Symbol object
   'no-new-symbol': 2,
 
+  // disallow duplicate module imports
+  'no-duplicate-imports': 2,
+
   // disallow specified modules when loaded by import
   'no-restricted-imports': 0,
 
   // disallow use of this/super before calling super() in constructors.
   'no-this-before-super': 2,
 
+  // disallow unnecessary computed property keys in object literals
+  'no-useless-computed-key': 2,
+
   // disallow unnecessary constructors
   'no-useless-constructor': 2,
+
+  // disallow renaming import, export, and destructured assignments to the same name
+  'no-useless-rename': 2,
 
   // require let or const instead of var
   'no-var': 2,
@@ -71,11 +80,15 @@ module.exports = {
   // disallow generator functions that do not have yield
   'require-yield': 2,
 
+  // enforce spacing between rest and spread operators and their expressions
+  'rest-spread-spacing': [2, 'never'],
+
   // enforce sorted import declarations within modules
   'sort-imports': 0,
 
   // require or disallow spacing around embedded expressions of template string
   'template-curly-spacing': [2, 'never'],
 
+  // require or disallow spacing around the * in yield* expressions
   'yield-star-spacing': 2
 };

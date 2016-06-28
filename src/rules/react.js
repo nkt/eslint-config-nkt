@@ -9,9 +9,7 @@ module.exports = {
   'react/jsx-boolean-value': 2,
 
   // Validate closing bracket location in JSX
-  'react/jsx-closing-bracket-location': [2, {
-    'location': 'tag-aligned'
-  }],
+  'react/jsx-closing-bracket-location': [2, { 'location': 'tag-aligned' }],
 
   // Enforce or disallow spaces inside of curly braces in JSX attributes
   'react/jsx-curly-spacing': [2, 'never'],
@@ -26,9 +24,7 @@ module.exports = {
   }],
 
   // Limit maximum of props on a single line in JSX
-  'react/jsx-max-props-per-line': [2, {
-    'maximum': 5
-  }],
+  'react/jsx-max-props-per-line': [2, { 'maximum': 5 }],
 
   // Validate props indentation in JSX
   'react/jsx-indent-props': [2, 2],
@@ -67,9 +63,7 @@ module.exports = {
   'react/no-danger': 0,
 
   // Prevent usage of deprecated methods
-  'react/no-deprecated': [2, {
-    'react': '0.14.0'
-  }],
+  'react/no-deprecated': [2, { 'react': '0.14.0' }],
 
   // Prevent usage of setState in componentDidMount
   'react/no-did-mount-set-state': [2, 'allow-in-func'],
@@ -84,9 +78,7 @@ module.exports = {
   'react/no-is-mounted': 2,
 
   // Prevent multiple component definition per file
-  'react/no-multi-comp': [2, {
-    'ignoreStateless': true
-  }],
+  'react/no-multi-comp': [2, { 'ignoreStateless': true }],
 
   // Prevent usage of setState
   'react/no-set-state': 0,
@@ -107,9 +99,7 @@ module.exports = {
   'react/react-in-jsx-scope': 2,
 
   // Restrict file extensions that may be required
-  'react/require-extension': [2, {
-    'extensions': ['.js']
-  }],
+  'react/require-extension': [2, { 'extensions': ['.js'] }],
 
   // Prevent extra closing tags for components without children
   'react/self-closing-comp': 2,
