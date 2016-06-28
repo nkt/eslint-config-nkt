@@ -159,7 +159,10 @@ module.exports = {
   // disallow whitespace before properties
   'no-whitespace-before-property': 2,
 
-  'object-curly-newline': [2, { 'multiline': true }],
+  // require or disallow line breaks inside braces
+  'object-curly-newline': 0,
+  // Disabled due https://github.com/eslint/eslint/issues/6549
+  // 'object-curly-newline': [2, { 'multiline': true, 'minProperties': 1 }],
 
   // require or disallow padding inside curly braces
   'object-curly-spacing': [2, 'always'],

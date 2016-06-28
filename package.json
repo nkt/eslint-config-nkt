@@ -30,12 +30,12 @@
   },
   "devDependencies": {
     "eslint": "2.13.x",
-    "eslint-plugin-react": "3.16.x"
+    "eslint-plugin-react": "5.2.x"
   },
   "peerDependencies": {
     "eslint": "2.13.x"
   },
   "optionalDependencies": {
-    "eslint-plugin-react": "3.16.x"
+    "eslint-plugin-react": "5.2.x"
   }
 }
