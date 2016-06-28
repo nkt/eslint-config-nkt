@@ -8,11 +8,11 @@ module.exports = {
   // disallow assignment in conditional expressions
   'no-cond-assign': [2, 'always'],
 
-  // disallow use of console in the node environment
+  // disallow the use of console
   'no-console': 1,
 
   // disallow use of constant expressions in conditions
-  'no-constant-condition': 1,
+  'no-constant-condition': 2,
 
   // disallow control characters in regular expressions
   'no-control-regex': 2,

@@ -11,8 +11,8 @@ module.exports = {
   // enforce one true brace style
   'brace-style': [2,
     '1tbs', {
-    'allowSingleLine': true
-  }],
+      'allowSingleLine': true
+    }],
 
   // require camel case names
   'camelcase': [2, {
@@ -43,11 +43,14 @@ module.exports = {
   // enforce use of function declarations or expressions
   'func-style': 0,
 
+  // disallow specified identifiers
+  'id-blacklist': 0,
+
   // require identifiers to match the provided regular expression
   'id-match': 2,
 
   // specify tab or space width for your code
-  'indent': [2, 2, {'SwitchCase': 1}],
+  'indent': [2, 2, { 'SwitchCase': 1 }],
   // specify whether double or single quotes should be used in JSX attributes
   'jsx-quotes': [2, 'prefer-double'],
 
@@ -56,6 +59,9 @@ module.exports = {
     'beforeColon': false,
     'afterColon': true
   }],
+
+  // enforce consistent spacing before and after keywords
+  'keyword-spacing': [2, { 'before': true, 'after': true }],
 
   // enforce empty lines around comments
   'lines-around-comment': 2,
@@ -77,6 +83,9 @@ module.exports = {
 
   // require or disallow an empty newline after variable declarations
   'newline-after-var': 0,
+
+  // require an empty line before return statements
+  'newline-per-chained-call': [2, { 'ignoreChainWithDepth': 2 }],
 
   // disallow use of the Array constructor
   'no-array-constructor': 2,
@@ -125,14 +134,20 @@ module.exports = {
   // disallow the use of Boolean literals in conditional expressions
   'no-unneeded-ternary': 2,
 
+  // disallow whitespace before properties
+  'no-whitespace-before-property': 2,
+
   // require or disallow padding inside curly braces
-  'object-curly-spacing': 2,
+  'object-curly-spacing': [2, 'always'],
 
   // require or disallow one variable declaration per function
   'one-var': [2, {
     'uninitialized': 'always',
     'initialized': 'never'
   }],
+
+  // require or disallow newlines around var declarations
+  'one-var-declaration-per-line': 2,
 
   // require assignment operator shorthand where possible or prohibit it entirely
   'operator-assignment': 2,
@@ -164,12 +179,6 @@ module.exports = {
   // sort variables within the same declaration block
   'sort-vars': 2,
 
-  // require a space after certain keywords
-  'space-after-keywords': 2,
-
-  // require a space before certain keywords
-  'space-before-keywords': 2,
-
   // require or disallow a space before blocks
   'space-before-blocks': 2,
 
@@ -182,16 +191,13 @@ module.exports = {
   // require spaces around operators
   'space-infix-ops': 2,
 
-  // require a space after return, throw, and case
-  'space-return-throw-case': 2,
-
   // require or disallow spaces before/after unary operators
   'space-unary-ops': 2,
 
   // require or disallow a space immediately following the // or /* in a comment
   'spaced-comment': [2, 'always', {
     'exceptions': ['-', '+'],
-    'markers': ['=', '!'] // space here to support sprockets directives
+    'markers': ['=', '!']
   }],
 
   // require regex literals to be wrapped in parentheses

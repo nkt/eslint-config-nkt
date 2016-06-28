@@ -20,11 +20,11 @@ module.exports = {
   // enforce spacing around the * in generator functions
   'generator-star-spacing': [0, 'before'],
 
-  // disallow arrow functions where a condition is expected
-  'no-arrow-condition': 2,
-
   // disallow modifying variables of class declarations
   'no-class-assign': 2,
+
+  // disallow arrow functions where they could be confused with comparisons
+  'no-confusing-arrow': 2,
 
   // disallow modifying variables that are declared using const
   'no-const-assign': 2,
@@ -32,8 +32,17 @@ module.exports = {
   // disallow duplicate name in class members
   'no-dupe-class-members': 2,
 
+  // disallow new operators with the Symbol object
+  'no-new-symbol': 2,
+
+  // disallow specified modules when loaded by import
+  'no-restricted-imports': 0,
+
   // disallow use of this/super before calling super() in constructors.
   'no-this-before-super': 2,
+
+  // disallow unnecessary constructors
+  'no-useless-constructor': 2,
 
   // require let or const instead of var
   'no-var': 2,
@@ -47,6 +56,9 @@ module.exports = {
   // suggest using const declaration for variables that are never modified after declared
   'prefer-const': 2,
 
+  // require rest parameters instead of arguments
+  'prefer-rest-params': 2,
+
   // suggest using the spread operator instead of .apply().
   'prefer-spread': 2,
 
@@ -57,5 +69,13 @@ module.exports = {
   'prefer-template': 0,
 
   // disallow generator functions that do not have yield
-  'require-yield': 2
+  'require-yield': 2,
+
+  // enforce sorted import declarations within modules
+  'sort-imports': 0,
+
+  // require or disallow spacing around embedded expressions of template string
+  'template-curly-spacing': [2, 'never'],
+
+  'yield-star-spacing': 2
 };

@@ -24,8 +24,16 @@
   "engines": {
     "node": ">=4.2.0"
   },
+  "scripts": {
+    "test": "eslint src/",
+    "postpublish": "git push --follow-tags"
+  },
+  "devDependencies": {
+    "eslint": "2.0.x",
+    "eslint-plugin-react": "3.16.x"
+  },
   "peerDependencies": {
-    "eslint": "1.10.x"
+    "eslint": "2.0.x"
   },
   "optionalDependencies": {
     "eslint-plugin-react": "3.16.x"

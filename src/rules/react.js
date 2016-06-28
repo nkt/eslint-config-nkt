@@ -9,9 +9,6 @@ module.exports = {
   'react/jsx-boolean-value': 2,
 
   // Validate closing bracket location in JSX
-  'react/jsx-closing-bracket-location': 2,
-
-  // Validate closing bracket location in JSX
   'react/jsx-closing-bracket-location': [2, {
     'location': 'tag-aligned'
   }],
@@ -73,9 +70,6 @@ module.exports = {
   'react/no-deprecated': [2, {
     'react': '0.14.0'
   }],
-
-  // Prevent usage of setState
-  'react/no-set-state': 0,
 
   // Prevent usage of setState in componentDidMount
   'react/no-did-mount-set-state': [2, 'allow-in-func'],

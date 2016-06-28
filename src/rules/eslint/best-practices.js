@@ -2,8 +2,11 @@
  * Best Practices
  */
 module.exports = {
-  // Enforces getter/setter pairs in objects
+  // enforce getter and setter pairs in objects
   'accessor-pairs': 2,
+
+  // enforce return statements in callbacks of array methods
+  'array-callback-return': 2,
 
   // treat var statements as if they were block scoped
   'block-scoped-var': 2,
@@ -49,8 +52,8 @@ module.exports = {
   // disallow else after a return in an if
   'no-else-return': 2,
 
-  // disallow use of labels for anything other than loops and switches
-  'no-empty-label': 2,
+  // disallow empty functions
+  'no-empty-function': 2,
 
   // disallow use of empty destructuring patterns
   'no-empty-pattern': 2,
@@ -67,6 +70,9 @@ module.exports = {
   // disallow unnecessary function binding
   'no-extra-bind': 2,
 
+  // disallow unnecessary labels
+  'no-extra-label': 2,
+
   // disallow fallthrough of case statements
   'no-fallthrough': 2,
 
@@ -75,6 +81,9 @@ module.exports = {
 
   // disallow the type conversions with shorter notations
   'no-implicit-coercion': 2,
+
+  // disallow var and named function declarations in the global scope
+  'no-implicit-globals': 2,
 
   // disallow use of eval()-like methods
   'no-implied-eval': 2,
@@ -85,7 +94,7 @@ module.exports = {
   // disallow usage of __iterator__ property
   'no-iterator': 2,
 
-  // disallow use of labeled statements
+  // disallow labeled statements
   'no-labels': 2,
 
   // disallow unnecessary nested blocks
@@ -139,6 +148,9 @@ module.exports = {
   // disallow use of javascript: urls.
   'no-script-url': 2,
 
+  // disallow assignments where both sides are exactly the same
+  'no-self-assign': 2,
+
   // disallow comparisons where both sides are exactly the same
   'no-self-compare': 2,
 
@@ -148,8 +160,14 @@ module.exports = {
   // restrict what can be thrown as an exception
   'no-throw-literal': 2,
 
+  // disallow unmodified loop conditions
+  'no-unmodified-loop-condition': 2,
+
   // disallow usage of expressions in statement position
   'no-unused-expressions': 2,
+
+  // disallow unused labels
+  'no-unused-labels': 2,
 
   // disallow unnecessary .call() and .apply()
   'no-useless-call': 2,
