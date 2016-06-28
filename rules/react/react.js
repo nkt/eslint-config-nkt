@@ -86,11 +86,7 @@ module.exports = {
   }],
 
   // Enforce propTypes declarations alphabetical sorting
-  'react/sort-prop-types': [2, {
-    'callbacksLast': true,
-    'ignoreCase': true,
-    'requiredFirst': true
-  }],
+  'react/sort-prop-types': 0,
 
   // Prevent missing parentheses around multilines JSX
   'react/wrap-multilines': 2

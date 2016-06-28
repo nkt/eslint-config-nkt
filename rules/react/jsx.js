@@ -57,7 +57,7 @@ module.exports = {
   'react/jsx-pascal-case': 2,
 
   // Enforce props alphabetical sorting
-  'react/jsx-sort-props': 2,
+  'react/jsx-sort-props': 0,
 
   // Validate spacing before closing bracket in JSX
   'react/jsx-space-before-closing': 2,
